@@ -1,4 +1,3 @@
-import 'simplelightbox/dist/simple-lightbox.min.css';
 import { onFormSubmit, onLoadMoreInfo } from './js/formSubmit';
 import { refs } from './js/refs';
 
