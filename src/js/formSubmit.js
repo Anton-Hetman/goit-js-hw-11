@@ -7,7 +7,7 @@ import simpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import { refs } from './refs';
 
-let gallerySimpleLightbox = new SimpleLightbox('.gallery a');
+let gallerySimpleLightbox = new simpleLightbox('.gallery a');
 let pageNr = 1;
 export async function onFormSubmit(evt) {
   try {
