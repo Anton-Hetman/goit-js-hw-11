@@ -3,8 +3,8 @@ import { cleanGallery } from './cleanGallery';
 import { creatValue } from './createValue';
 import { renderImageList } from './renderList';
 
-import simpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+// import simpleLightbox from 'simplelightbox';
+// import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import { refs } from './refs';
 
