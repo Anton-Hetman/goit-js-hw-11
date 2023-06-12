@@ -2,10 +2,9 @@ import { fetchImages } from './fetchImages';
 import { cleanGallery } from './cleanGallery';
 import { creatValue } from './createValue';
 import { renderImageList } from './renderList';
-
+import Notiflix from 'notiflix';
 import simpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-
 import { refs } from './refs';
 
 let gallerySimpleLightbox = new SimpleLightbox('.gallery a');
